@@ -78,3 +78,50 @@
   background-color: black;
 
 }
+.icon {
+    display: inline-block; /* Allows the container to size itself around the icon */
+    background-color: #e0e0e0; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space around the icon */
+    margin: 5px; /* Space between icons */
+    transition: transform 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
+    text-align: center; /* Centers the icon */
+}
+
+.icon:hover {
+    background-color:rgb(63, 63, 99); /* Darker background on hover */
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}
+
+.icon i {
+    color: blue /* Icon color */
+    font-size: 30px; /* Icon size */
+}
+
+.hover-link:hover {
+    color: #ffffff; /* Text color on hover */
+    background-color: #007bff; /* Background color on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+.nav-link {
+    font-size: 55px;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #007bff; /* Initial text color */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+    color: #ffffff; /* Text color on hover */
+    background-color: #007bff; /* Background color on hover */
+    border-radius: 5px; /* Rounded corners for the hover effect */
+}
+
+.nav-item {
+    margin: 0 10px; /* Space between navbar items */
+}
